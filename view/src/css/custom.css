@@ -1,0 +1,20 @@
+/* Aqui serão feitas as customizações que não existem no Bootstrap */
+/* Todas as classes que começam com "c-" estão nesse arquivo */
+
+/* Favor fazer comentários em todas as classes */
+
+.c-navbar-background { /* Cor de fundo da barra de navegação */
+    background-color: rgb(65, 0, 83);
+}
+
+.c-link-hover:hover { /* Links cinzas ao passar o mouse na barra de navegação */
+    color: rgb(200, 200, 200) !important;
+}
+
+.c-active { /* Adiciona o sublinhado no link ativo da barra de navegação */
+    text-decoration: underline;
+}
+
+.c-navbar-text-size {
+    font-size: 1.1em;
+}
