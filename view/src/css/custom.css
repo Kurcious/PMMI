@@ -10,6 +10,9 @@
 .c-background-purple-hover:hover { /* Background hover para botões*/
     background-color: rgb(45, 0, 75);
 }
+.c-background-purple-hover:focus { /* Background hover para botões*/
+    background-color: rgb(45, 0, 75);
+} 
 
 .c-link-hover:hover { /* Links cinzas ao passar o mouse na barra de navegação */
     color: rgb(200, 200, 200) !important;
