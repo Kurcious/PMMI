@@ -3,8 +3,12 @@
 
 /* Favor fazer comentários em todas as classes */
 
-.c-navbar-background { /* Cor de fundo da barra de navegação */
+.c-background-purple { /* Cor de fundo da barra de navegação */
     background-color: rgb(65, 0, 83);
+}
+
+.c-background-purple-hover:hover { /* Background hover para botões*/
+    background-color: rgb(45, 0, 75);
 }
 
 .c-link-hover:hover { /* Links cinzas ao passar o mouse na barra de navegação */
@@ -17,4 +21,13 @@
 
 .c-navbar-text-size { /* Altera o tamanho dos links na barra de navegação */
     font-size: 1.1em;
+}
+
+.c-title { /* Todos os títulos usarão essa classe */
+    color: rgb(65, 0, 83);
+    font-weight: 600;
+}
+
+.c-border-purple { /* Customiza o hr */
+    border: 1px solid rgb(65, 0, 83);
 }
