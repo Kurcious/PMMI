@@ -34,3 +34,7 @@
 .c-border-purple { /* Customiza o hr */
     border: 1px solid rgb(65, 0, 83);
 }
+
+.c-min-90 {
+    min-height: 90vh;
+}
