@@ -10,15 +10,15 @@ class Contato extends Component {
             <div>
                 <Layout />
                 <div className="container c-min-90">
-                    <h1 className="c-title">Fale Conosco</h1>
+                    <h3 className="c-title">Fale Conosco</h3>
                     <hr className="c-background-purple c-border-purple"></hr>
                     <div className="row">
                         <div className="col-md mb-4">
-                            <h3 className="c-title mt-2">Envie uma Mensagem</h3>
+                            <h4 className="c-title mt-2">Envie uma Mensagem</h4>
                             <Dados />
                         </div>
                         <div className="col-md">
-                            <h3 className="c-title mt-2 mb-3">Informações</h3>
+                            <h4 className="c-title mt-2 mb-3">Informações</h4>
                             <Informacoes />
                         </div>
                     </div>

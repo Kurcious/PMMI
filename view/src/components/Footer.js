@@ -35,45 +35,10 @@ class Footer extends Component {
                                 </li>
                             </ul>
                         </div>
-                        {/* <hr className="clearfix w-100 d-md-none pb-3" />
-                        <div className="col-6 col-md-3 mb-md-0 mb-3">
-                            <h5 className="text-uppercase">Links</h5>
-                            <ul className="list-unstyled">
-                                <li>
-                                    <a href="#!">Link 1</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 2</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 4</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="col-6 col-md-3 mb-md-0 mb-3">
-                            <h5 className="text-uppercase">Links</h5>
-                            <ul className="list-unstyled">
-                                <li>
-                                    <a href="#!">Link 1</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 2</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 3</a>
-                                </li>
-                                <li>
-                                    <a href="#!">Link 4</a>
-                                </li>
-                            </ul>
-                        </div> */}
-
+                        
                     </div>
                 </div>
-                <div className="footer-copyright text-center py-3 text-muted">© 2020 Copyright: <a href="#!">Grupo Topperson</a>
+                <div className="footer-copyright text-center py-3 text-muted">© 2020 Copyright: <a href="https://github.com/syllomex/MMI/" target="_new">Grupo Topperson</a>
                 </div>
             </footer>
         );

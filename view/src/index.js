@@ -5,8 +5,14 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Contato from './components/Contato';
-import Salas from './components/Salas';
+import Sala from './components/Sala';
 import Reserva from './components/Reserva';
+import A from './components/Formularios/A';
+import B from './components/Formularios/B';
+import C from './components/Formularios/C';
+import D from './components/Formularios/D';
+import E from './components/Formularios/E';
+import F from './components/Formularios/F';
 
 ReactDOM.render(
     <BrowserRouter>
@@ -14,8 +20,14 @@ ReactDOM.render(
             <Route path="/" exact={true} component={App} />
             <Route path="/inicio" exact={true} component={App} />
             <Route path="/contato" exact={true} component={Contato} />
-            <Route path="/salas" exact={true} component={Salas} />
             <Route path="/reserva" exact={true} component={Reserva} />
+            <Route path="/salas" exact={true} component={Sala} />
+            <Route path="/a" exact={true} component={A} />
+            <Route path="/b" exact={true} component={B} />
+            <Route path="/c" exact={true} component={C} />
+            <Route path="/d" exact={true} component={D} />
+            <Route path="/e" exact={true} component={E} />
+            <Route path="/f" exact={true} component={F} />
         </Switch>
     </BrowserRouter>, document.getElementById("root")
 );

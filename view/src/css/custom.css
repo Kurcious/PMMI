@@ -35,6 +35,14 @@
     border: 1px solid rgb(65, 0, 83);
 }
 
-.c-min-90 {
+.c-min-90 { /* Define a altura minima da página para posicionar o footer */
     min-height: 90vh;
+}
+
+.dropdown-item:active { /* Altera a cor ao clickar nos links dos dropdowns */
+    background-color: rgb(65, 0, 83);
+}
+
+.c-sala-img {
+    max-width: 350px;
 }

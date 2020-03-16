@@ -29,7 +29,7 @@ class Home extends Component {
                             <a href="#!" className="btn btn-dark c-background-purple c-background-purple-hover">Agende sua Visita</a>
                         </div>
                         <div className="col col-12 col-md-8 mb-3">
-                            <h4 className="c-title">Principais Atrações</h4>
+                            <h4 className="c-title">Destaques do Mês</h4>
 
                             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" style={{ cursor: "pointer" }}>
 
@@ -96,9 +96,9 @@ class Home extends Component {
                             </div>
                         </div>
                         <div className="col col-sm-12 col-md-4">
-                            <h4 className="c-title">Outras Atrações</h4>
+                            <h4 className="c-title">Destaques da Semana</h4>
                             <Link to="#!">
-                                <Atracao nome="[Nome da Atração]"
+                                <Atracao nome="Juras? Que Park?"
                                     descricao="Lorem ipsum dolor sit amet, consectetur la capsour itsum op timousium
                                 jar pe ritus ifacta pitericit hacquer."
                                     img_url={dino} />
