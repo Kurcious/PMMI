@@ -43,6 +43,6 @@
     background-color: rgb(65, 0, 83);
 }
 
-.c-sala-img {
+.c-sala-img { /* Define tamanho máximo das imagens nas telas das salas */
     max-width: 350px;
 }
